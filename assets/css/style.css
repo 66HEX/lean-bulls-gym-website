@@ -1,0 +1,254 @@
+@import url(../css/clash-display.css);
+
+:root{
+    --c-white: #ffffff;
+    --c-brand: #6e1414;
+    --c-brand-light: #8f2626;
+    --c-brand-rgb: 110, 20, 20;
+    --c-body: #727272;
+    --font-base: "ClashDisplay", sans-serif;
+    --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
+    --box-shadow-2: 0px 15px 25px rgba(0, 0, 0, 0.3);
+    --transition: 0.5s ease;
+}
+
+body{
+    font-family: var(--font-base);
+    line-height: 1.7;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+h1,h2,h3,h4,h5,h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: var(--c-brand);
+    transition: var(--transition);
+}
+
+a:hover{
+    color: var(--c-brand-light);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding-top{
+    padding-top: 80px;
+}
+
+.section-padding-top-2{
+    padding-top: 100px;
+}
+
+.section-padding-bottom{
+    padding-bottom: 90px;
+}
+
+/* NAVBAR */
+
+.navbar{
+    box-shadow: var(--box-shadow);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-nav .nav-link{
+    font-weight: 500;
+    color: var(--c-white);
+}
+
+.navbar-nav .nav-link.active{
+    color: var(--c-brand);
+}
+
+.btn{
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 24px;
+}
+
+/* PRZYCISK O NAS */
+
+.btn-brand{
+    background-color: var(--c-brand);
+    border-color: var(--c-brand);
+    color: white;
+}
+
+.btn-brand:hover{
+    background-color: var(--c-brand-light);
+    border-color: var(--c-brand-light);
+    color: white;
+}
+
+#home{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/home.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.theme-shadow{
+    box-shadow: var(--box-shadow);
+}
+
+.member-photo{
+    box-shadow: var(--box-shadow-2);
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+/*GALERIA*/
+
+.image-zoom{
+    position: relative;
+    overflow: hidden;
+}
+
+.image-zoom-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.image-zoom-wrapper img{
+    transition: var(--transition);
+}
+.image-zoom:hover .image-zoom-wrapper img{
+    transform: scale(1.05);
+}
+
+#powerlifting{
+    background: linear-gradient(rgba(var(--c-brand-rgb),0.8), rgba(var(--c-brand-rgb),0.8)), url("../images/powerlifting_upscaled.jpg");
+    background-position:center;
+    background-size: cover;
+}
+
+/*CENNIK*/
+
+.pricing-area {
+    padding: 3% 0;
+    text-align: center;
+}
+.single-pricing {
+    background: #fcfcfc;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transition: all 0.5s ease;
+}
+
+.deal-type {
+    background: linear-gradient(to bottom, var(--c-brand), var(--c-brand-light));
+    padding: 15px 0;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.deal-amount {
+    clip-path: polygon(0 0, 100% 0%, 100% 60%, 51% 100%, 0 60%);
+    background: linear-gradient(to right, var(--c-brand), var(--c-brand-light));
+    padding: 25px 0;
+    color: #fff;
+}
+.price .money {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.price .money sup {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.single-deal {
+    padding: 15px 0;
+    list-style: none;
+}
+
+.single-deal li {
+    font-size: 18px;
+    font-family: var(--font-base);
+    padding: 10px 0;
+}
+
+.single-pricing:hover {
+    transform: scale(1.05);
+}
+
+.btn-pricing {
+    background: linear-gradient(to right, var(--c-brand), var(--c-brand-light));
+    border: none;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    padding: 10px 50px;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .single-pricing {
+        margin-bottom: 30px;
+    }
+}
+
+/*STOPKA */
+
+footer {
+    padding-top: 120px;
+}
+
+.footer-top {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-bottom {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer li,
+footer p,
+footer a {
+    color: rgba(255,255,255,0.7);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .line {
+    width: 40px;
+    height: 4px;
+    background-color: var(--c-brand);
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 10px;
+}
+
+.social-icons a:hover {
+    background-color: var(--c-brand);
+    color: white;
+}
+
+.social-icon-footer{
+    height: 30px;
+}
