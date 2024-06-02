@@ -1,8 +1,8 @@
 @import url(../css/clash-display.css);
 
-body {
+html, body {
+    max-width: 100%;
     overflow-x: hidden;
-    width: 100%;
 }
 
 :root{
