@@ -1,5 +1,10 @@
 @import url(../css/clash-display.css);
 
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 :root{
     --c-white: #ffffff;
     --c-brand: #6e1414;
