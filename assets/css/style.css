@@ -2,7 +2,6 @@
 
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
 }
 
 :root{
@@ -164,7 +163,7 @@ img{
     color: #fff;
 }
 .price .money {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 900;
 }
 
@@ -174,7 +173,7 @@ img{
 }
 
 .single-deal {
-    padding: 15px 0;
+    padding: 15px ;
     list-style: none;
 }
 
@@ -237,6 +236,10 @@ footer .line {
     background-color: var(--c-brand);
     margin-top: 12px;
     margin-bottom: 24px;
+}
+
+.footer-justify{
+    justify-content: space-around;
 }
 
 .social-icons a {
