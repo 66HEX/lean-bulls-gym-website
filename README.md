@@ -4,11 +4,11 @@ This repository contains the source code for the Lean Bulls Gym website. The web
 
 ## Table of Contents
 
-- [Project Overview]
-- [Features]
-- [Technologies Used]
-- [Usage]
-- [License]
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Usage](#usage)
+- [License](#license)
 
 ## Project Overview
 
