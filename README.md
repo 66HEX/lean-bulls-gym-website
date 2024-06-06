@@ -42,12 +42,12 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/66HEX/lean-bulls-gym.git
+    git clone https://github.com/66HEX/lean-bulls-gym-website.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd lean-bulls-gym
+    cd lean-bulls-gym-website
     ```
 
 3. Open `index.html` in your web browser to view the website.
