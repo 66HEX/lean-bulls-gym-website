@@ -42,7 +42,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/lean-bulls-gym.git
+    git clone https://github.com/66HEX/lean-bulls-gym.git
     ```
 
 2. Navigate to the project directory:
